@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burricos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Burricos" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h1>Bienvenido a Burricos</h1>
+    <p>Los mejores burritos, hechos con amor y sabor auténtico.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+    <ul class="menu-lista">
+      <li>Burrito Clásico</li>
+      <li>Burrito Picante</li>
+      <li>Burrito Vegetariano</li>
+      <li>Combo Burrico + Bebida</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Haz tu pedido</h2>
+    <form action="mailto:tucorreo@ejemplo.com" method="post" enctype="text/plain">
+      <label>Nombre:</label><br>
+      <input type="text" name="nombre" required><br>
+      <label>Pedido:</label><br>
+      <textarea name="pedido" required></textarea><br>
+      <input type="submit" value="Enviar Pedido">
+    </form>
+  </section>
+
+  <footer>
+    <p>Síguenos en <a href="https://instagram.com/tucuenta" target="_blank">Instagram</a></p>
+    <p>&copy; 2025 Burricos</p>
+  </footer>
+</body>
+</html>
